@@ -15,7 +15,7 @@ public class CharController : MonoBehaviour {
  *  Initialize values
  */
 	void Start () {
-		_speed = 3.0f;
+		_speed = 2.0f;
 		_facing = Facing.FACING_DOWN;
 		_isMoving = false;
 		_anim = GetComponent<Animator> ();
